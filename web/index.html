@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Detection</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+<div id="logo-container">
+        <img src="/static/images/logo.jpg" alt="MoodBuddy Logo" id="logo">
+    </div>
+    <h1>Welcome to our new AI-Powered website..</h1>
+    <button id="start-btn">Start Analysis</button>
+
+    <div id="video-container" style="display: none;">
+        <img id="video-feed" src="" alt="Emotion Detection Feed">
+    </div>
+
+   <div id="advice-box" style="display: none;">
+    <h2>Your Emotion: <span id="detected-emotion"></span></h2>
+    <p id="detection-message"></p> 
+    <p id="emotion-advice"></p>
+
+    <div id="response-buttons" style="margin-top: 20px;">
+        <button id="yes-btn" class="response-btn">Yes</button>
+        <button id="no-btn" class="response-btn">No</button>
+    </div>
+   <div id="advice-response-buttons" style="display: none;">
+            <button id="advice-yes-btn" class="response-btn">Yes, take me there!</button>
+            <button id="advice-no-btn" class="response-btn">No, refresh the page</button>
+        </div>
+        <p id="response-message" style="margin-top: 20px; font-size: 18px; color: #333;"></p>
+    </div>
+</div>
+
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
+<footer>
+    <div id="footer-left">
+        <p> MoodBuddy © All rights are protected. </p>
+    </div>
+</footer>
